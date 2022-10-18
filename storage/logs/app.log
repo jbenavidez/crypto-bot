@@ -1,0 +1,666 @@
+2022-10-18 03:26:57,832 | INFO | calculate_avg_price bitcoin
+2022-10-18 03:26:57,837 | INFO | calculate_avg_price ethereum
+2022-10-18 03:26:57,845 | INFO | calculate_avg_price tether
+2022-10-18 03:26:57,861 | INFO | calculate_avg_price binancecoin
+2022-10-18 03:26:57,867 | INFO | calculate_avg_price usd-coin
+2022-10-18 03:26:57,870 | INFO | calculate_avg_price ripple
+2022-10-18 03:26:58,030 | INFO | Checking price for bitcoin, is valid to buy or not
+2022-10-18 03:26:58,048 | INFO | calculate_avg_price binance-usd
+2022-10-18 03:26:58,126 | INFO | Checking price for ethereum, is valid to buy or not
+2022-10-18 03:26:58,130 | INFO | calculate_avg_price cardano
+2022-10-18 03:26:58,176 | ERROR | trade could not be store. Error 'prices'
+2022-10-18 03:26:58,189 | INFO | calculate_avg_price solana
+2022-10-18 03:26:58,188 | INFO | Checking price for binancecoin, is valid to buy or not
+2022-10-18 03:26:58,232 | INFO | calculate_avg_price dogecoin
+2022-10-18 03:26:58,230 | ERROR | trade could not be store. Error 'prices'
+2022-10-18 03:26:58,181 | INFO | Checking price for tether, is valid to buy or not
+2022-10-18 03:26:58,322 | INFO | price for tether, is valid 
+2022-10-18 03:26:58,276 | ERROR | trade could not be store. Error 'prices'
+2022-10-18 03:26:58,344 | INFO | placing order
+2022-10-18 03:26:58,357 | INFO | order was place for tether
+2022-10-18 03:26:58,364 | INFO | tether: saving trade info
+2022-10-18 03:26:58,502 | ERROR | trade could not be store. Error 'prices'
+2022-10-18 03:26:58,550 | ERROR | trade could not be store. Error 'prices'
+2022-10-18 03:26:58,562 | ERROR | trade could not be store. Error 'prices'
+2022-10-18 03:28:27,603 | ERROR | trade could not be store. Error string indices must be integers, Error line Traceback (most recent call last):
+  File "/app/services/trade_coin_service.py", line 23, in cal_avg_price
+    coin_id = coin_obj['id']
+TypeError: string indices must be integers
+
+2022-10-18 03:28:33,175 | ERROR | trade could not be store. Error string indices must be integers, Error line Traceback (most recent call last):
+  File "/app/services/trade_coin_service.py", line 23, in cal_avg_price
+    coin_id = coin_obj['id']
+TypeError: string indices must be integers
+
+2022-10-18 03:28:49,495 | ERROR | trade could not be store. Error string indices must be integers, Error line Traceback (most recent call last):
+  File "/app/services/trade_coin_service.py", line 23, in cal_avg_price
+    coin_id = coin_obj['id']
+TypeError: string indices must be integers
+
+2022-10-18 03:28:57,891 | ERROR | trade could not be store. Error string indices must be integers, Error line Traceback (most recent call last):
+  File "/app/services/trade_coin_service.py", line 23, in cal_avg_price
+    coin_id = coin_obj['id']
+TypeError: string indices must be integers
+
+2022-10-18 03:29:26,919 | INFO | calculate_avg_price bitcoin
+2022-10-18 03:29:26,920 | INFO | calculate_avg_price ethereum
+2022-10-18 03:29:26,921 | INFO | calculate_avg_price tether
+2022-10-18 03:29:26,922 | INFO | calculate_avg_price binancecoin
+2022-10-18 03:29:26,927 | INFO | calculate_avg_price usd-coin
+2022-10-18 03:29:26,929 | INFO | calculate_avg_price ripple
+2022-10-18 03:29:27,104 | INFO | Checking price for bitcoin, is valid to buy or not
+2022-10-18 03:29:27,108 | INFO | Checking price for ethereum, is valid to buy or not
+2022-10-18 03:29:27,109 | INFO | calculate_avg_price binance-usd
+2022-10-18 03:29:27,113 | INFO | calculate_avg_price cardano
+2022-10-18 03:29:27,151 | INFO | Checking price for tether, is valid to buy or not
+2022-10-18 03:29:27,154 | INFO | price for tether, is valid 
+2022-10-18 03:29:27,158 | INFO | calculate_avg_price solana
+2022-10-18 03:29:27,158 | INFO | placing order
+2022-10-18 03:29:27,176 | INFO | order was place for tether
+2022-10-18 03:29:27,182 | INFO | tether: saving trade info
+2022-10-18 03:29:27,169 | INFO | Checking price for ripple, is valid to buy or not
+2022-10-18 03:29:27,186 | INFO | Checking price for usd-coin, is valid to buy or not
+2022-10-18 03:29:27,207 | INFO | price for ripple, is valid 
+2022-10-18 03:29:27,215 | INFO | price for usd-coin, is valid 
+2022-10-18 03:29:27,221 | INFO | calculate_avg_price dogecoin
+2022-10-18 03:29:27,271 | INFO | Checking price for binancecoin, is valid to buy or not
+2022-10-18 03:29:27,359 | INFO | Checking price for cardano, is valid to buy or not
+2022-10-18 03:29:27,381 | INFO | price for cardano, is valid 
+2022-10-18 03:29:27,381 | INFO | placing order
+2022-10-18 03:29:27,391 | INFO | order was place for usd-coin
+2022-10-18 03:29:27,411 | INFO | usd-coin: saving trade info
+2022-10-18 03:29:27,386 | INFO | Checking price for binance-usd, is valid to buy or not
+2022-10-18 03:29:27,430 | INFO | price for binance-usd, is valid 
+2022-10-18 03:29:27,411 | INFO | Checking price for solana, is valid to buy or not
+2022-10-18 03:29:27,502 | INFO | placing order
+2022-10-18 03:29:27,505 | INFO | order was place for ripple
+2022-10-18 03:29:27,510 | INFO | ripple: saving trade info
+2022-10-18 03:29:27,509 | INFO | Checking price for dogecoin, is valid to buy or not
+2022-10-18 03:29:27,540 | INFO | price for dogecoin, is valid 
+2022-10-18 03:29:27,711 | INFO | placing order
+2022-10-18 03:29:27,713 | INFO | order was place for binance-usd
+2022-10-18 03:29:27,723 | INFO | binance-usd: saving trade info
+2022-10-18 03:29:27,816 | INFO | placing order
+2022-10-18 03:29:27,818 | INFO | order was place for cardano
+2022-10-18 03:29:27,819 | INFO | cardano: saving trade info
+2022-10-18 03:29:27,913 | INFO | placing order
+2022-10-18 03:29:27,915 | INFO | order was place for dogecoin
+2022-10-18 03:29:27,922 | INFO | dogecoin: saving trade info
+2022-10-18 03:32:27,341 | INFO | validating coinf info btc
+2022-10-18 03:32:27,373 | INFO | saving coin Bitcoin...
+2022-10-18 03:32:27,420 | ERROR | coin could not be store Bitcoin. Error (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Bitcoin', 'btc', 19497.73, 19614.89, 19161.27)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) .traceback: Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: coin.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/models/coin.py", line 53, in create
+    db_session.commit()
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Bitcoin', 'btc', 19497.73, 19614.89, 19161.27)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+2022-10-18 03:32:27,429 | INFO | validating coinf info eth
+2022-10-18 03:32:27,442 | INFO | saving coin Ethereum...
+2022-10-18 03:32:27,463 | ERROR | coin could not be store Ethereum. Error (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Ethereum', 'eth', 1329.46, 1339.17, 1298.04)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) .traceback: Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: coin.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/models/coin.py", line 53, in create
+    db_session.commit()
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Ethereum', 'eth', 1329.46, 1339.17, 1298.04)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+2022-10-18 03:32:27,473 | INFO | validating coinf info bnb
+2022-10-18 03:32:27,516 | INFO | saving coin BNB...
+2022-10-18 03:32:27,538 | ERROR | coin could not be store BNB. Error (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('BNB', 'bnb', 274.23, 275.93, 270.23)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) .traceback: Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: coin.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/models/coin.py", line 53, in create
+    db_session.commit()
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('BNB', 'bnb', 274.23, 275.93, 270.23)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+2022-10-18 03:32:51,200 | INFO | validating coinf info btc
+2022-10-18 03:32:51,247 | INFO | saving coin Bitcoin...
+2022-10-18 03:32:51,341 | INFO | coin Bitcoin  was saved.
+2022-10-18 03:32:51,343 | INFO | validating coinf info eth
+2022-10-18 03:32:51,371 | INFO | saving coin Ethereum...
+2022-10-18 03:32:51,435 | INFO | coin Ethereum  was saved.
+2022-10-18 03:32:51,437 | INFO | validating coinf info bnb
+2022-10-18 03:32:51,471 | INFO | saving coin BNB...
+2022-10-18 03:32:51,556 | INFO | coin BNB  was saved.
+2022-10-18 03:32:57,615 | INFO | validating coinf info btc
+2022-10-18 03:32:57,637 | INFO | saving coin Bitcoin...
+2022-10-18 03:32:57,668 | ERROR | coin could not be store Bitcoin. Error (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Bitcoin', 'btc', 19497.73, 19614.89, 19161.27)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) .traceback: Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: coin.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/models/coin.py", line 53, in create
+    db_session.commit()
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Bitcoin', 'btc', 19497.73, 19614.89, 19161.27)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+2022-10-18 03:32:57,672 | INFO | validating coinf info eth
+2022-10-18 03:32:57,712 | INFO | saving coin Ethereum...
+2022-10-18 03:32:57,737 | ERROR | coin could not be store Ethereum. Error (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Ethereum', 'eth', 1329.49, 1339.17, 1298.04)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) .traceback: Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: coin.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/models/coin.py", line 53, in create
+    db_session.commit()
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('Ethereum', 'eth', 1329.49, 1339.17, 1298.04)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+2022-10-18 03:32:57,747 | INFO | validating coinf info bnb
+2022-10-18 03:32:57,796 | INFO | saving coin BNB...
+2022-10-18 03:32:57,829 | ERROR | coin could not be store BNB. Error (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('BNB', 'bnb', 274.23, 275.93, 270.23)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) .traceback: Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: coin.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/models/coin.py", line 53, in create
+    db_session.commit()
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: coin.name
+[SQL: INSERT INTO coin (name, symbol, current_price, high_24h, low_24h) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('BNB', 'bnb', 274.23, 275.93, 270.23)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+2022-10-18 03:33:39,188 | INFO | validating coinf info btc
+2022-10-18 03:33:39,211 | INFO | validating coinf info eth
+2022-10-18 03:33:39,217 | INFO | validating coinf info bnb
+2022-10-18 03:33:56,207 | INFO | validating coinf info btc
+2022-10-18 03:33:56,229 | INFO | coin already exist Bitcoin
+2022-10-18 03:33:56,230 | INFO | validating coinf info eth
+2022-10-18 03:33:56,238 | INFO | coin already exist Ethereum
+2022-10-18 03:33:56,241 | INFO | validating coinf info bnb
+2022-10-18 03:33:56,256 | INFO | coin already exist BNB
+2022-10-18 03:34:10,032 | INFO | validating coinf info btc
+2022-10-18 03:34:10,050 | INFO | coin already exist Bitcoin
+2022-10-18 03:34:10,051 | INFO | validating coinf info eth
+2022-10-18 03:34:10,061 | INFO | coin already exist Ethereum
+2022-10-18 03:34:10,063 | INFO | validating coinf info bnb
+2022-10-18 03:34:10,074 | INFO | coin already exist BNB
+2022-10-18 03:36:35,438 | INFO | calculate_avg_price bitcoin
+2022-10-18 03:36:35,439 | INFO | calculate_avg_price ethereum
+2022-10-18 03:36:35,440 | INFO | calculate_avg_price tether
+2022-10-18 03:36:35,449 | INFO | calculate_avg_price binancecoin
+2022-10-18 03:36:35,453 | INFO | calculate_avg_price usd-coin
+2022-10-18 03:36:35,454 | INFO | calculate_avg_price ripple
+2022-10-18 03:36:35,639 | INFO | Checking price for tether, is valid to buy or not
+2022-10-18 03:36:35,641 | INFO | tether Possible gain 0.00024367912057532415
+2022-10-18 03:36:35,654 | INFO | calculate_avg_price binance-usd
+2022-10-18 03:36:35,675 | INFO | Checking price for binancecoin, is valid to buy or not
+2022-10-18 03:36:35,682 | INFO | Checking price for ethereum, is valid to buy or not
+2022-10-18 03:36:35,711 | INFO | calculate_avg_price cardano
+2022-10-18 03:36:35,722 | INFO | calculate_avg_price solana
+2022-10-18 03:36:35,769 | INFO | Checking price for usd-coin, is valid to buy or not
+2022-10-18 03:36:35,777 | INFO | usd-coin Possible gain 0.00032692037180959144
+2022-10-18 03:36:35,778 | INFO | Checking price for ripple, is valid to buy or not
+2022-10-18 03:36:35,785 | INFO | ripple Possible gain 0.013907451301999052
+2022-10-18 03:36:35,782 | INFO | calculate_avg_price dogecoin
+2022-10-18 03:36:35,964 | INFO | Checking price for bitcoin, is valid to buy or not
+2022-10-18 03:36:35,966 | INFO | placing order
+2022-10-18 03:36:35,970 | INFO | order was place for tether
+2022-10-18 03:36:35,974 | INFO | tether: saving trade info
+2022-10-18 03:36:36,027 | INFO | Checking price for cardano, is valid to buy or not
+2022-10-18 03:36:36,035 | INFO | Checking price for dogecoin, is valid to buy or not
+2022-10-18 03:36:36,062 | INFO | dogecoin Possible gain 9.274179432394031e-05
+2022-10-18 03:36:36,042 | INFO | cardano Possible gain 0.012551253405956586
+2022-10-18 03:36:36,038 | INFO | Checking price for solana, is valid to buy or not
+2022-10-18 03:36:36,107 | INFO | Checking price for binance-usd, is valid to buy or not
+2022-10-18 03:36:36,180 | INFO | binance-usd Possible gain 0.0007310640312251371
+2022-10-18 03:36:36,176 | INFO | placing order
+2022-10-18 03:36:36,190 | INFO | order was place for usd-coin
+2022-10-18 03:36:36,199 | INFO | usd-coin: saving trade info
+2022-10-18 03:36:36,281 | INFO | placing order
+2022-10-18 03:36:36,283 | INFO | order was place for ripple
+2022-10-18 03:36:36,286 | INFO | ripple: saving trade info
+2022-10-18 03:36:36,350 | INFO | placing order
+2022-10-18 03:36:36,355 | INFO | order was place for binance-usd
+2022-10-18 03:36:36,357 | INFO | binance-usd: saving trade info
+2022-10-18 03:36:36,448 | INFO | placing order
+2022-10-18 03:36:36,450 | INFO | order was place for cardano
+2022-10-18 03:36:36,452 | INFO | cardano: saving trade info
+2022-10-18 03:36:36,516 | INFO | placing order
+2022-10-18 03:36:36,518 | INFO | order was place for dogecoin
+2022-10-18 03:36:36,524 | INFO | dogecoin: saving trade info
+2022-10-18 03:37:32,525 | INFO | calculate_avg_price bitcoin
+2022-10-18 03:37:32,526 | INFO | calculate_avg_price ethereum
+2022-10-18 03:37:32,527 | INFO | calculate_avg_price tether
+2022-10-18 03:37:32,532 | INFO | calculate_avg_price binancecoin
+2022-10-18 03:37:32,534 | INFO | calculate_avg_price usd-coin
+2022-10-18 03:37:32,536 | INFO | calculate_avg_price ripple
+2022-10-18 03:37:32,762 | INFO | Checking price for bitcoin, is valid to buy or not
+2022-10-18 03:37:32,764 | INFO | calculate_avg_price binance-usd
+2022-10-18 03:37:32,783 | INFO | Checking price for tether, is valid to buy or not
+2022-10-18 03:37:32,786 | INFO | Checking price for binancecoin, is valid to buy or not
+2022-10-18 03:37:32,787 | INFO | Possible_gain 0.0 if we buy tether
+2022-10-18 03:37:32,795 | INFO | calculate_avg_price solana
+2022-10-18 03:37:32,803 | INFO | Checking price for ethereum, is valid to buy or not
+2022-10-18 03:37:32,790 | INFO | calculate_avg_price cardano
+2022-10-18 03:37:32,812 | INFO | Checking price for usd-coin, is valid to buy or not
+2022-10-18 03:37:32,816 | INFO | calculate_avg_price dogecoin
+2022-10-18 03:37:32,817 | INFO | placing order
+2022-10-18 03:37:32,865 | INFO | order was place for tether
+2022-10-18 03:37:32,849 | INFO | Checking price for ripple, is valid to buy or not
+2022-10-18 03:37:32,900 | INFO | tether: saving trade info
+2022-10-18 03:37:32,847 | INFO | Possible_gain 0.0 if we buy usd-coin
+2022-10-18 03:37:32,936 | INFO | Possible_gain 0.01 if we buy ripple
+2022-10-18 03:37:32,979 | INFO | Checking price for binance-usd, is valid to buy or not
+2022-10-18 03:37:32,983 | INFO | Possible_gain 0.0 if we buy binance-usd
+2022-10-18 03:37:33,062 | INFO | placing order
+2022-10-18 03:37:33,068 | INFO | order was place for usd-coin
+2022-10-18 03:37:33,082 | INFO | usd-coin: saving trade info
+2022-10-18 03:37:33,146 | INFO | Checking price for dogecoin, is valid to buy or not
+2022-10-18 03:37:33,153 | INFO | Checking price for cardano, is valid to buy or not
+2022-10-18 03:37:33,172 | INFO | Possible_gain 0.01 if we buy cardano
+2022-10-18 03:37:33,157 | INFO | Possible_gain 0.0 if we buy dogecoin
+2022-10-18 03:37:33,236 | INFO | Checking price for solana, is valid to buy or not
+2022-10-18 03:37:33,240 | INFO | placing order
+2022-10-18 03:37:33,245 | INFO | order was place for ripple
+2022-10-18 03:37:33,253 | INFO | ripple: saving trade info
+2022-10-18 03:37:33,426 | INFO | placing order
+2022-10-18 03:37:33,440 | INFO | order was place for binance-usd
+2022-10-18 03:37:33,446 | INFO | binance-usd: saving trade info
+2022-10-18 03:37:33,532 | INFO | placing order
+2022-10-18 03:37:33,533 | INFO | order was place for cardano
+2022-10-18 03:37:33,540 | INFO | cardano: saving trade info
+2022-10-18 03:37:33,589 | INFO | placing order
+2022-10-18 03:37:33,592 | INFO | order was place for dogecoin
+2022-10-18 03:37:33,598 | INFO | dogecoin: saving trade info
+2022-10-18 03:38:15,496 | INFO | calculate_avg_price bitcoin
+2022-10-18 03:38:15,498 | INFO | calculate_avg_price ethereum
+2022-10-18 03:38:15,504 | INFO | calculate_avg_price tether
+2022-10-18 03:38:15,505 | INFO | calculate_avg_price binancecoin
+2022-10-18 03:38:15,506 | INFO | calculate_avg_price usd-coin
+2022-10-18 03:38:15,508 | INFO | calculate_avg_price ripple
+2022-10-18 03:38:15,775 | INFO | Checking price for ethereum, is valid to buy or not
+2022-10-18 03:38:15,780 | INFO | calculate_avg_price binance-usd
+2022-10-18 03:38:15,784 | INFO | Checking price for binancecoin, is valid to buy or not
+2022-10-18 03:38:15,806 | INFO | calculate_avg_price cardano
+2022-10-18 03:38:15,796 | INFO | Checking price for usd-coin, is valid to buy or not
+2022-10-18 03:38:15,812 | INFO | Checking price for tether, is valid to buy or not
+2022-10-18 03:38:15,815 | INFO | Checking price for bitcoin, is valid to buy or not
+2022-10-18 03:38:15,847 | INFO | Checking price for ripple, is valid to buy or not
+2022-10-18 03:38:15,859 | INFO | Possible_gain $0.000209 if we buy usd-coin
+2022-10-18 03:38:15,864 | INFO | Possible_gain $0.00065 if we buy tether
+2022-10-18 03:38:15,867 | INFO | calculate_avg_price solana
+2022-10-18 03:38:15,881 | INFO | Possible_gain $0.013596 if we buy ripple
+2022-10-18 03:38:15,892 | INFO | calculate_avg_price dogecoin
+2022-10-18 03:38:15,893 | INFO | placing order
+2022-10-18 03:38:16,012 | INFO | Checking price for binance-usd, is valid to buy or not
+2022-10-18 03:38:16,013 | INFO | order was place for tether
+2022-10-18 03:38:16,025 | INFO | tether: saving trade info
+2022-10-18 03:38:16,021 | INFO | Possible_gain $0.000583 if we buy binance-usd
+2022-10-18 03:38:16,164 | INFO | placing order
+2022-10-18 03:38:16,170 | INFO | order was place for usd-coin
+2022-10-18 03:38:16,182 | INFO | usd-coin: saving trade info
+2022-10-18 03:38:16,167 | INFO | Checking price for cardano, is valid to buy or not
+2022-10-18 03:38:16,205 | INFO | Possible_gain $0.012488 if we buy cardano
+2022-10-18 03:38:16,216 | INFO | Checking price for dogecoin, is valid to buy or not
+2022-10-18 03:38:16,229 | INFO | Checking price for solana, is valid to buy or not
+2022-10-18 03:38:16,242 | INFO | Possible_gain $6.8e-05 if we buy dogecoin
+2022-10-18 03:38:16,328 | INFO | placing order
+2022-10-18 03:38:16,330 | INFO | order was place for ripple
+2022-10-18 03:38:16,334 | INFO | ripple: saving trade info
+2022-10-18 03:38:16,430 | INFO | placing order
+2022-10-18 03:38:16,441 | INFO | order was place for binance-usd
+2022-10-18 03:38:16,446 | INFO | binance-usd: saving trade info
+2022-10-18 03:38:16,517 | INFO | placing order
+2022-10-18 03:38:16,519 | INFO | order was place for cardano
+2022-10-18 03:38:16,524 | INFO | cardano: saving trade info
+2022-10-18 03:38:16,589 | INFO | placing order
+2022-10-18 03:38:16,592 | INFO | order was place for dogecoin
+2022-10-18 03:38:16,596 | INFO | dogecoin: saving trade info
+2022-10-18 03:38:30,149 | INFO | calculate_avg_price bitcoin
+2022-10-18 03:38:30,150 | INFO | calculate_avg_price ethereum
+2022-10-18 03:38:30,164 | INFO | calculate_avg_price usd-coin
+2022-10-18 03:38:30,157 | INFO | calculate_avg_price binancecoin
+2022-10-18 03:38:30,154 | INFO | calculate_avg_price tether
+2022-10-18 03:38:30,169 | INFO | calculate_avg_price ripple
+2022-10-18 03:38:30,334 | INFO | Checking price for binancecoin, is valid to buy or not
+2022-10-18 03:38:30,339 | INFO | Checking price for ethereum, is valid to buy or not
+2022-10-18 03:38:30,347 | INFO | calculate_avg_price cardano
+2022-10-18 03:38:30,344 | INFO | calculate_avg_price binance-usd
+2022-10-18 03:38:30,343 | INFO | Checking price for bitcoin, is valid to buy or not
+2022-10-18 03:38:30,364 | INFO | Checking price for tether, is valid to buy or not
+2022-10-18 03:38:30,395 | INFO | Possible_gain $0.001 if we buy tether
+2022-10-18 03:38:30,399 | INFO | calculate_avg_price dogecoin
+2022-10-18 03:38:30,386 | INFO | calculate_avg_price solana
+2022-10-18 03:38:30,399 | INFO | placing order
+2022-10-18 03:38:30,392 | INFO | Checking price for ripple, is valid to buy or not
+2022-10-18 03:38:30,426 | INFO | order was place for tether
+2022-10-18 03:38:30,446 | INFO | tether: saving trade info
+2022-10-18 03:38:30,439 | INFO | Possible_gain $0.014 if we buy ripple
+2022-10-18 03:38:30,453 | INFO | Checking price for usd-coin, is valid to buy or not
+2022-10-18 03:38:30,501 | INFO | Possible_gain $0.0 if we buy usd-coin
+2022-10-18 03:38:30,604 | INFO | Checking price for cardano, is valid to buy or not
+2022-10-18 03:38:30,613 | INFO | Checking price for binance-usd, is valid to buy or not
+2022-10-18 03:38:30,622 | INFO | placing order
+2022-10-18 03:38:30,655 | INFO | order was place for usd-coin
+2022-10-18 03:38:30,650 | INFO | Possible_gain $0.001 if we buy binance-usd
+2022-10-18 03:38:30,673 | INFO | usd-coin: saving trade info
+2022-10-18 03:38:30,624 | INFO | Possible_gain $0.012 if we buy cardano
+2022-10-18 03:38:30,677 | INFO | Checking price for dogecoin, is valid to buy or not
+2022-10-18 03:38:30,714 | INFO | Possible_gain $0.0 if we buy dogecoin
+2022-10-18 03:38:30,699 | INFO | Checking price for solana, is valid to buy or not
+2022-10-18 03:38:30,776 | INFO | placing order
+2022-10-18 03:38:30,778 | INFO | order was place for ripple
+2022-10-18 03:38:30,780 | INFO | ripple: saving trade info
+2022-10-18 03:38:30,871 | INFO | placing order
+2022-10-18 03:38:30,877 | INFO | order was place for binance-usd
+2022-10-18 03:38:30,880 | INFO | binance-usd: saving trade info
+2022-10-18 03:38:30,946 | INFO | placing order
+2022-10-18 03:38:30,948 | INFO | order was place for cardano
+2022-10-18 03:38:30,952 | INFO | cardano: saving trade info
+2022-10-18 03:38:31,031 | INFO | placing order
+2022-10-18 03:38:31,038 | INFO | order was place for dogecoin
+2022-10-18 03:38:31,040 | INFO | dogecoin: saving trade info
