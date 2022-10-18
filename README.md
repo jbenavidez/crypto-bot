@@ -24,6 +24,7 @@ This module is historical data for a given coin, and if the current price is low
 
 #### Logger 
 this Utitlity function keep track of our logs and create a log file 
+![Alt text](/git_images/p3.png "test locally" )
 ### APP features
 - GET and store the top 3 cryptocurrency coins 
 - COMPARE crypto
