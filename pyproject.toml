@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "interview-assessment"
+name = ""
 version = "1.0.0"
-description = "Interview Assessment"
-authors = ["Engineering Team <engineering.team@progyny.com>"]
+description = ""
+authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.9"
