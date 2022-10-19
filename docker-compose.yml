@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: interview-assessment
+    container_name: h-a
     volumes:
       - .:/app
     restart: unless-stopped
